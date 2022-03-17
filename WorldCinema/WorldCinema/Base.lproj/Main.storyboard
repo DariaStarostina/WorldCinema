@@ -35,6 +35,9 @@
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Войти"/>
+                                <connections>
+                                    <segue destination="4eA-RX-Yy6" kind="presentation" modalPresentationStyle="fullScreen" id="8qy-Pw-DAC"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v9T-ar-Xi1">
                                 <rect key="frame" x="36" y="396" width="343" height="44"/>
@@ -69,6 +72,9 @@
                                 <color key="tintColor" red="0.87240582700000002" green="0.28719538449999998" blue="0.16837361449999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Регистрация"/>
+                                <connections>
+                                    <segue destination="Vcz-g0-9B5" kind="presentation" modalPresentationStyle="fullScreen" id="Ujv-Vy-23M"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PHn-j9-t7R"/>
@@ -114,6 +120,9 @@
                                 <color key="tintColor" systemColor="systemBackgroundColor"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Зарегистрироваться"/>
+                                <connections>
+                                    <segue destination="4eA-RX-Yy6" kind="presentation" modalPresentationStyle="fullScreen" id="duz-UY-iXT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPd-PL-D51">
                                 <rect key="frame" x="36" y="727" width="343" height="44"/>
@@ -122,6 +131,9 @@
                                 <color key="tintColor" red="0.87240582700000002" green="0.28719538449999998" blue="0.16837361449999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="У меня уже есть аккаунт"/>
+                                <connections>
+                                    <segue destination="DNq-qr-6iz" kind="presentation" modalPresentationStyle="fullScreen" id="E9V-Oa-rmg"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qW4-78-Dw9">
                                 <rect key="frame" x="36" y="321" width="343" height="44"/>
@@ -205,6 +217,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="416" height="1700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="alj-5w-fvb">
+                                <rect key="frame" x="0.0" y="0.0" width="416" height="1700"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4WA-u4-znf">
+                                        <rect key="frame" x="-53" y="0.0" width="521" height="1700"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image 1" translatesAutoresizingMaskIntoConstraints="NO" id="hIe-hO-aLd">
                                 <rect key="frame" x="-41" y="0.0" width="496" height="442"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -383,6 +406,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f9B-6D-tWp">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="omA-sM-CAi">
+                                        <rect key="frame" x="-41" y="-17" width="496" height="1433"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image 2-2" translatesAutoresizingMaskIntoConstraints="NO" id="RDC-oT-FI2">
                                 <rect key="frame" x="-183" y="0.0" width="781" height="439"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -610,6 +644,9 @@
             <point key="canvasLocation" x="2473.913043478261" y="276.5625"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="duz-UY-iXT"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="18+" width="25" height="12"/>
         <image name="Active" width="67" height="4"/>
